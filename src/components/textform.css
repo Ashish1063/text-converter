@@ -1,0 +1,67 @@
+ 
+.container{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-label{
+  font-size:larger;
+}
+ .container .card{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+ 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .mb-3 textarea{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+ }
+ 
+.btn {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #f9f9f9 0, #cacbd3 100%);
+  border: 0;
+  border-radius: 6px;
+  /* box-shadow: 0px 0px 1px black ; */
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 40px;
+  justify-content: center;
+ 
+  list-style: none;
+  /* overflow: hidden; */
+  padding-left: 10px;
+  padding-right: 16px;
+  /* position: relative; */
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.btn:focus {
+  box-shadow: #000000 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(21, 21, 23, 0.3) 0 7px 13px -3px, #000000 0 -3px 0 inset;
+}
+
+.btn:hover {
+  box-shadow: rgba(8, 8, 8, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #000000 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: #090913 0 3px 7px inset;
+  transform: translateY(2px);
+}
